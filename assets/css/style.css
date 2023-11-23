@@ -1,7 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face{
+    font-family: fruits;
+    src: url(../fonts/Fruits.otf);
+}
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /* font-family: fruit, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+.bg-blue{
+    background-color: #212a43;
+}
+.bg-danger2{
+    background: #D5385F;
+}
+.bg-danger3{
+    background: #5C327A;
+}
+.bg-warning2{
+    background: #FA9005;
+}
+.text-danger2{
+    color: #D5385F !important;
+}
+.text-success2{
+    color: #376118;
+}
+.text-dark2{
+    color: #161616;
 }
 
 /* Header Section Start */
